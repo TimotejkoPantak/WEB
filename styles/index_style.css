@@ -7,6 +7,26 @@ body{
     scale: 1.0;
 }
 
+.firstcryptomsg{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+}
+
+.cryptomsg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .clanok_text{
 width: 500px;
 }

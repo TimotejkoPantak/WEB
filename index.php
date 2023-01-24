@@ -615,7 +615,7 @@ display: -webkit-box;
             .then(data =>{
                 // console.log(data);
 
-                markup = `<li>${(data["time"]["updateduk"])}</li><li>${(data["chartName"])}</li><li>${(data["bpi"]["EUR"]["code"])} | ${(data["bpi"]["EUR"]["rate"])} ${(data["bpi"]["EUR"]["symbol"])}</li>`;
+                markup = `<li class="firstcryptomsg">${(data["time"]["updateduk"])}</li><li class="cryptomsg"><strong style="color: #FFC833">${(data["chartName"])}</strong></li><li class="cryptomsg"><strong>${(data["bpi"]["EUR"]["code"])} | ${(data["bpi"]["EUR"]["rate"])} ${(data["bpi"]["EUR"]["symbol"])}<strong></li>`;
                 document.querySelector('main').insertAdjacentHTML('beforeend', markup);
             })
             .catch(err => console.log(err));
