@@ -1,0 +1,95 @@
+main{
+    height: 90vh;
+}
+
+.form-control{
+    border-radius: 15px;;
+    font-size: 22px;
+}
+
+.form-control:focus{
+    border: 2px solid rgb(32,37,41);
+    transition: 0.5s ease-in-out;
+    box-shadow: none;
+}
+
+
+.btn_search{
+    border-radius: 15px;
+    background-color: rgb(32,37,41);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn_search:hover{
+    background-color: #ffffff;
+    color: rgb(32,37,41);
+    transition: 0.5s ease;
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.col-1{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.col-2{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.list-group-item.active{
+    background-color: black;
+    border-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.list-group-item{
+    border: none;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.list-group{
+    border: none;
+    border-radius: 10px;
+    position: block;
+}
+
+.btn-success{
+color: #000;
+background-color: transparent;
+border-color: #000;
+margin-left: 120px;
+}
+
+.btn-success:hover{
+color: #fff;
+background-color: #000;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.br_wrapper{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 200px;
+}

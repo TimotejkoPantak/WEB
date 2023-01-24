@@ -1,0 +1,235 @@
+body{
+    background-color: #fff;
+    height: 100%;
+}
+
+.main_img{
+    scale: 1.0;
+}
+
+.clanok_text{
+width: 500px;
+}
+
+img{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(32,37,41);
+    margin-bottom: 10px;
+}
+
+img:hover{
+    box-shadow: 0 0 20px 0 rgb(32,37,41);
+    transition: 0.5s ease;
+    scale: 1.1;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+
+.pagination{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.page-item{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+
+.page-link{
+    color: #000;
+    border: 1px solid rgb(32,37,41);
+    padding: 5px 10px;
+}
+
+.page-link:hover{
+    border: 1px solid rgb(32,37,41);
+    transition: 0.5s;
+    background-color: rgb(32,37,41);
+    color: #fff;
+}
+
+.scriptosmgn li{
+    font-size: 5z   0px;
+}
+
+
+.option{
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(32,37,41);
+    text-align: center;
+    padding: 10px;
+}
+
+.chips{
+    width:100%;
+    height:50px;
+    display:flex; 
+    justify-content: space-evenly;
+}
+
+.chip{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(32,37,41);
+    text-align: center;
+    padding: 10px;
+    margin: 0px 10px 10px;
+}
+
+.chip:hover{
+    background-color: rgb(32,37,41);
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.chip:active{
+    background-color: rgb(32,37,41);
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.chip:focus{
+    background-color: rgb(32,37,41);
+    color: #ffffff;
+    transition: 0.5s ease;
+}
+
+.form-control{
+    border-radius: 15px;;
+    font-size: 22px;
+}
+
+.form-control:focus{
+    border: 2px solid rgb(32,37,41);
+    transition: 0.5s ease-in-out;
+    box-shadow: none;
+}
+
+.btn_search{
+    border-radius: 15px;
+    background-color: rgb(32,37,41);
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn_search:hover{
+    background-color: #ffffff;
+    color: rgb(32,37,41);
+    transition: 0.5s ease;
+}
+
+.vtip{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.menu_item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 21px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.info{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#Category{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+textarea{
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn-outline-danger{
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: rgb(32,37,41);
+    border-color: rgb(32,37,41);
+}
+
+.btn-outline-danger:hover{
+    background-color: #fff;
+    color: rgb(32,37,41);
+    transition: 0.5s ease;
+}
+
+#Title{
+    margin-top: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    height: 35px;
+    border-radius: 10px;
+    padding: 10px;
+}
